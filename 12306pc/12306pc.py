@@ -1,4 +1,4 @@
-from selenium import webdriver
+﻿from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -31,7 +31,7 @@ class Demo():
         userName.send_keys("18626835745")
         time.sleep(3)
         password = driver.find_element_by_id("J-password")
-        password.send_keys("a947652853")
+        password.send_keys("....")
         self.driver = driver
 
     def getVerifyImage(self):
